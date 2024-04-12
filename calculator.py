@@ -1,5 +1,6 @@
 def addition(a,b):
     """
+    This function is an addition function
     :type a: float
     :type b: float
     :rtype: float
@@ -10,6 +11,7 @@ def addition(a,b):
 
 def substraction(a,b):
     """
+    This function is an substraction function
     :type a: float
     :type b: float
     :rtype: float
@@ -20,6 +22,7 @@ def substraction(a,b):
 
 def division(a,b):
     """
+    This function is an division function
     :type a: float
     :type b: float
     :rtype: float
