@@ -1,10 +1,10 @@
 """
-This module defines a simple calculator class.
+This module defines a calculator class.
 """
 
 class Calculator:
     """
-    This class represents a simple calculator.
+    This class represents a calculator.
     """
 
     def __init__(self):
