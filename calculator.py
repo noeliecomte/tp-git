@@ -2,6 +2,7 @@ class Calculator:
     def __init__(self):
         pass
 
+    @staticmethod
     def addition(a, b):
         """
         This function is an addition function
@@ -13,6 +14,7 @@ class Calculator:
         result = a + b
         return result
 
+    @staticmethod
     def subtraction(a, b):
         """
         This function is a subtraction function
@@ -24,6 +26,7 @@ class Calculator:
         result = a - b
         return result
 
+    @staticmethod
     def division(a, b):
         """
         This function is a division function
