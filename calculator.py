@@ -1,4 +1,8 @@
 class Calculator:
+    """
+    This class represents a simple calculator.
+    """
+
     def __init__(self):
         pass
 
@@ -39,4 +43,3 @@ class Calculator:
             raise ValueError("Division by zero is not allowed")
         result = a / b
         return result
-    
