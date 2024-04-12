@@ -1,26 +1,27 @@
-from calculator import addition
-from calculator import substraction
-from calculator import division
+from calculator import Calculator
 
 def test_addition():
     """
     This function is a test for addition
-    :function: unit test of addiction function
+    :function: unit test of addition function
     """
-    assert addition(1, 2) == 3
+    calculate = Calculator()
+    assert calculate.addition(1, 2) == 3
 
 
-def test_substraction():
+def test_subtraction():
     """
-    This function is a test for substraction
-    :function: unit test of addiction function
+    This function is a test for subtraction
+    :function: unit test of subtraction function
     """
-    assert substraction(2, 1) == 1
+    calculate = Calculator()
+    assert calculate.subtraction(2, 1) == 1
 
 
 def test_division():
     """
     This function is a test for division
-    :function: unit test of addiction function
+    :function: unit test of division function
     """
-    assert division(6, 2) == 3
+    calculate = Calculator()
+    assert calculate.division(6, 2) == 3
