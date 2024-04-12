@@ -1,3 +1,7 @@
+"""
+This module defines a simple calculator class.
+"""
+
 class Calculator:
     """
     This class represents a simple calculator.
